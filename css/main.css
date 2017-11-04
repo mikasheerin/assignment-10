@@ -1,0 +1,115 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #000;
+  color: #fff;
+  font-family: 'Hind Siliguri', Tahoma, sans-serif; /*   add fonts   */
+}
+
+
+#guitar-image-container {
+  max-width: 37%;
+  float: left;
+  padding-left: 5%;
+  padding-bottom: 5%;
+  text-align: center;
+}
+
+#records-image-container {
+  max-width: 58%;
+  float: right;
+  padding-right: 5%;
+  padding-bottom: 5%;
+  text-align: center;
+}
+
+#streaming-image-container {
+  max-width: 58%;
+  float: left;
+  padding-left: 5%;
+  padding-bottom: 2%;
+  text-align: center;
+}
+
+#studio-image-container {
+  max-width: 37%;
+  float: right;
+  padding-right: 5%;
+  padding-bottom: 2%;
+  text-align: center;
+}
+
+
+/* headings and text */
+
+h1, h2 {
+  font-family: 'Hind Siliguri', Tahoma, sans-serif;
+  margin-left: 5%;
+}
+
+p {
+  line-height: 1.4em;
+  margin: 5%;
+}
+
+/* images */
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+
+/* links */
+
+a {
+  color: #0287b3;
+}
+
+a:hover {
+  color: #3ecbfa;
+}
+
+/* special classes */
+
+
+/* put your media queries below */
+
+@media (max-width: 700px) {
+
+  #guitar-image-container {
+    max-width: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+    float: none;
+  }
+
+  #records-image-container {
+    max-width: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+    float: none;
+  }
+
+  #streaming-image-container {
+    max-width: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+    float: none;
+  }
+
+  #studio-image-container {
+    max-width: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+    float: none;
+  }
+
+
+}
